@@ -12,6 +12,9 @@
   border-color: black;
   background: yellow;
   }
+  .ShareURL {
+   background: lightblue;
+  }
 </style>
 
 </head>
@@ -66,7 +69,7 @@
  <p><a href="https://akameleda.github.io/cookbook/">Click here</a> To go back to the cookbook homepage.</a>
 <br>
 <input type="text" value="akameleda.github.io/cookbook/RECIPE1.html" id="myInput">
-<button onclick="myFunction()">Copy text</button>
+<button onclick="myFunction()" class="ShareURL"> 📋 Share Recipe (Copy URL) </button>
    <script>
      function myFunction() {
   var copyText = document.getElementById("myInput");
